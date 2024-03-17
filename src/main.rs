@@ -2,7 +2,6 @@ use std::fs::File;
 use std::io::{Write, Error};
 use std::io::LineWriter;
 use rand::Rng;
-// use unicode_segmentation::UnicodeSegmentation;
 
 fn pack_color(r: u8, g: u8, b: u8) -> u32 {
     let a: u8 = 255;
